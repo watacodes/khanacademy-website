@@ -4,5 +4,172 @@
     --font-color-blue: #1865f2;
     --font-color-title: #005987;
     --font-color-black: #21242c;
+    font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif, 'Helvetica', 'Corbel', sans-serif;
+}
+
+li a,
+li,
+.searchbar a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* images */
+
+.search-icon {
+    height: 16px;
+    width: 16px;
+}
+
+.main-content__image {
+    width: 600px;
+    height: 600px;
+}
+
+.khan-logo {
+    width: 180px;
+    height: 50px;
+}
+
+
+/* nav */
+
+.nav-container {
+    min-width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.5px solid grey;
+}
+
+.nav-left {
+    display: flex;
+    padding: 20px;
+    width: 380px;
+    /* border: 2px solid red; */
+}
+
+.nav-center {
+    /* border: 2px solid green; */
+    width: 180px;
+}
+
+.nav-center__image {
+    width: 300px;
+    margin-left: -70px;
+}
+
+.nav-right {
+    /* border: 2px solid orange; */
+    width: 300px;
+    
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dropdown {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    margin-right: 20px;
+    align-items: center;
+    width: 90px;
+    color: var(--font-color-blue);
+    font-weight: 600;
+
+
+}
+
+.nav-left img {
+    margin-left: 4px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid turquoise; */
+    height: 2.5rem;
+    width: 210px;
+    padding-left: 10px;
+    background-color: rgb(240, 241, 242);
+    border-radius: 4px;
+    
+}
+
+.searchbar a {
+    width: 200px;
+    color: var(--font-color-blue);
+    font-weight: 600;
+}
+
+img.search-icon {
+    float: right;
+}
+
+.nav-right__link {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+/* main content */
+
+.main-content {
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.description h1 {
+    font-size: 2.75rem;
+    font-family: 'Noto Serif';
+    font-weight: 500;
+}
+
+.description p {
+    margin: 2em 0;
+    line-height: 20px;
+    font-size: 1.25rem;
+}
+
+.description ul {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}
+
+.main-content__links {
+    
+    font-weight: 600;
+    color: white;
+    background-color: var(--font-color-blue);
+    margin-right: 1rem;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
+
+/* second content */
+
+.second-content {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F5F4;
+}
+
+.second-content h2 {
+    font-size: 3rem;
+    font-family: 'Noto Serif';
+    font-weight: 500;
+    padding-top: 50px;
 }
 

@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="spreadsheet" href="./styles.css">
-    <title>Khan Academy | Free Online Courses, Lessons & Practice</title>
-</head>
-<body>
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+        <title>Khan Academy | Free Online Courses, Lessons & Practice</title>
+    </head>
+    <body>
+        <header>
+            <nav class="nav-container">
+                <div class="nav-left">
+                    <button class="dropdown">Courses<img src="./images/down-arrow.png" alt="dropdown button" width="8px" height="8px"></button>
+                    <div class="searchbar">
+                        <a href="#">Search <img src="./images/search-interface-symbol.png" alt="search icon" class="search-icon"></a>
+                    </div>
+                </div>
+
+                <div class="nav-center">
+                    <div class="nav-center__image">
+                        <img src="./images/khan-academy-logo.png" alt="khan academy logo" class="khan-logo">
+                    </div>
+                </div>
+
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="https://www.khanacademy.org/donate" class="nav-right__link">Donate</a></li>
+                        <li><a href="https://www.khanacademy.org/login" class="nav-right__link">Login</a></li>
+                        <li><a href="https://www.khanacademy.org/signup" class="nav-right__link">Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="main-content">
+            <span class="image-container">
+                <img src="./images/khan-academy-image1.jfif" alt="a picture of students" class="main-content__image">
+            </span>
+            <div class="description">
+                <h1>For every student,<br>
+                    every classroom.<br>
+                    Real results.
+                </h1>
+
+                <p>We're a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
+
+                <ul>
+                    <li><a href="https://www.khanacademy.org/signup" class="main-content__links">Learners</a></li>
+                    <li><a href="https://www.khanacademy.org/signup?isteacher=1" class="main-content__links">Teachers</a></li>
+                    <li><a href="https://www.khanacademy.org/signup?isparent=1" class="main-content__links">Parents</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="second-content">
+            <h2>Why Khan Academy works</h2>
+        </section>
+    </body>
 </html>
